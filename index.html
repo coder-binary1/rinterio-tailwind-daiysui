@@ -34,10 +34,6 @@
         }
     </script>
     <style>
-        .bg-custom {
-            background-position: 10px 40px;
-        }
-
         .bg-custom2 {
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/review-bg-1.jpeg);
         }
@@ -139,10 +135,11 @@
             <div class="container mx-auto">
 
                 <!-- About Us Section -->
-                <div class="hero bg-custom lg:bg-[url('/assets/Vector.png')] bg-auto bg-no-repeat ">
+                <div class="hero">
                     <div class="hero-content flex-col-reverse lg:flex-row-reverse">
                         <img src="assets/Rectangle.png" class="max-w-md lg:max-w-lg rounded-xl" />
-                        <div class="space-y-4 lg:w-1/2">
+                        <div class="space-y-4 lg:w-1/2 relative">
+                            <img class="hidden lg:block absolute -top-12 -left-16" src="assets/Vector.png" alt="">
                             <h5
                                 class="font-bold bg-white px-4 py-2 rounded-full w-1/3 lg:w-1/4 mx-auto lg:mx-0 text-rinterio-secondary">
                                 <i class="fa-solid fa-arrow-right mr-2"></i>
@@ -156,8 +153,8 @@
                                     spaces</h2>
                                 <p
                                     class="text-sm lg:text-base text-center lg:text-left font-medium text-rinterio-secondary">
-                                    The barn house captivates with its blend of rustic charm and
-                                    modern sophistication, featuring weathered wood, sleek metal accents.
+                                    The interior delights with a perfect blend of cozy charm and modern elegance,
+                                    featuring reclaimed wood and sleek metal accents.
                                 </p>
                                 <div class="flex gap-6 shadow-md bg-white p-6 rounded-2xl">
                                     <img class="w-10 h-10 lg:w-auto lg:h-auto" src="assets/commercial.png" alt="">
@@ -223,45 +220,101 @@
                     </h5>
                     <h2 class="text-2xl lg:text-5xl font-bold my-4 lg:mt-4 lg:mb-6 text-rinterio-primary">Our Works
                         Process</h2>
-                    <p class="mb-8 lg:mb-6 text-rinterio-secondary text-sm lg:text-base">
-                        The barn house captivates with its blend of rustic charm and
-                        modern sophistication, featuring weathered wood, sleek metal accents.
+                    <p class="mb-8 lg:mb-6 text-rinterio-secondary text-sm lg:text-base max-w-3xl mx-auto">
+                        At Rinterio, we begin with a consultation, followed by market research and tailored options. Our
+                        team ensures a smooth journey through negotiations and closing.
                     </p>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb:gap-5 lg:gap-6 mx-5">
 
                         <div class="text-left bg-[#E7C1D3] rounded-2xl p-6 space-y-2">
                             <img src="assets/concept.png" alt="">
                             <h5 class="text-rinterio-fouth text-xl font-extrabold">Concept</h5>
-                            <p class="text-rinterio-secondary font-medium">The barn house captivates with its blend of
-                                rustic charm
-                                and modern.</p>
+                            <p class="text-rinterio-secondary font-medium">Rinterio blends personalized service with
+                                innovation, enhancing real estate solutions for every client.</p>
                         </div>
                         <div class="text-left bg-[#EFDA6E] rounded-2xl p-6 space-y-2">
                             <img src="assets/flow-chart.png" alt="">
                             <h5 class="text-rinterio-fouth text-xl font-extrabold">Design Process</h5>
-                            <p class="text-rinterio-secondary font-medium">The barn house captivates with its blend of
-                                rustic charm
-                                and modern.</p>
+                            <p class="text-rinterio-secondary font-medium">Our design process focuses on
+                                collaboration, creativity, and tailored solutions for each project.</p>
                         </div>
                         <div class="text-left bg-[#A4DAC3] rounded-2xl p-6 space-y-2">
                             <img src="assets/vision.png" alt="">
                             <h5 class="text-rinterio-fouth text-xl font-extrabold">Supervision</h5>
-                            <p class="text-rinterio-secondary font-medium">The barn house captivates with its blend of
-                                rustic charm
-                                and modern.</p>
+                            <p class="text-rinterio-secondary font-medium">We ensure quality through careful
+                                supervision, ensuring exceptional project outcomes.</p>
                         </div>
                         <div class="text-left bg-[#77AAEA] rounded-2xl p-6 space-y-2">
                             <img src="assets/budget-planning.png" alt="">
                             <h5 class="text-rinterio-fouth text-xl font-extrabold">Budget Planning</h5>
-                            <p class="text-rinterio-secondary font-medium">The barn house captivates with its blend of
-                                rustic charm
-                                and modern.</p>
+                            <p class="text-rinterio-secondary font-medium">We prioritizes budget planning to maximize
+                                value and efficiency.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        <!-- Our Latest Portfolio -->
+        <div class="container mx-auto mb-8 lg:mb-24">
+            <div class="mt-8 lg:mt-24 text-center">
+                <h5 class="font-bold bg-lime-200 px-4 py-2 rounded-full inline text-rinterio-secondary">
+                    <i class="fa-solid fa-arrow-right mr-2"></i>
+                    Explore our Latest works
+                </h5>
+                <h2 class="text-2xl lg:text-5xl font-bold my-4 lg:mt-4 lg:mb-6 text-rinterio-primary">Our Latest
+                    Portfolio</h2>
+                <p class="mb-8 lg:mb-6 text-rinterio-secondary text-sm lg:text-base max-w-3xl mx-auto">
+                    Our latest portfolio features diverse properties, showcasing quality design and modern amenities for
+                    various residential and commercial needs.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb:gap-5 lg:gap-6 mx-5">
+                    <!-- 1 -->
+                    <div
+                        class="text-left border rounded-2xl p-6 flex flex-col md:flex-row gap-6 md:col-span-2 lg:col-span-3">
+                        <img src="assets/img1.png" alt="">
+                        <div class="space-y-4">
+                            <h5 class="text-rinterio-secondary text-xl font-extrabold">Commercial</h5>
+                            <p class="text-rinterio-third font-medium">Ourcommercial portfolio includes prime
+                                properties designed for businesses, featuring strategic locations and modern amenities
+                                for optimal growth.</p>
+                            <button class="text-rinterio-primary font-extrabold text-xl mt-1">
+                                <span class=" mr-2">View Details</span>
+                                <i class="fa-solid fa-arrow-right -rotate-45 bg-lime-300 px-2 py-2 rounded-full"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="text-left border rounded-2xl p-6">
+                        <img class="w-full object-contain" src="assets/img2.png" alt="">
+                    </div>
+                    <!-- 3 -->
+                    <div class="text-left border rounded-2xl p-6">
+                        <img class="w-full object-cover" src="assets/img3.png" alt="">
+                    </div>
+                    <!-- 4 -->
+                    <div
+                        class="text-left border rounded-2xl p-6 flex flex-col md:flex-row gap-6 md:col-span-2 lg:col-span-2">
+                        <img src="assets/img4.png" alt="">
+                        <div class="space-y-4">
+                            <h5 class="text-rinterio-secondary text-xl font-extrabold">Residential</h5>
+                            <p class="text-rinterio-third font-medium">Our residential portfolio features a
+                                diverse selection of beautifully designed homes, catering to various lifestyles and
+                                preferences.</p>
+                            <button class="text-rinterio-primary font-extrabold text-xl mt-1">
+                                <span class=" mr-2">View Details</span>
+                                <i class="fa-solid fa-arrow-right -rotate-45 bg-lime-300 px-2 py-2 rounded-full"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="text-left border rounded-2xl p-6">
+                        <img class="w-full object-cover" src="assets/img5.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
         <!-- What Our Client Say -->
         <div class="container mx-auto text-center">
             <h2 class="text-2xl lg:text-5xl font-bold mt-12 mb-8 lg:mt-6 lg:mb-16 text-rinterio-primary">What Our Client
@@ -332,8 +385,8 @@
                 <h2 class="text-2xl lg:text-5xl font-bold my-4 lg:mt-4 lg:mb-6 text-rinterio-primary">Read Our Articles
                     and News</h2>
                 <p class="mb-8 lg:mb-6 text-rinterio-secondary text-sm lg:text-base">
-                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring
-                    weathered wood, sleek metal accents.
+                    Discover valuable insights and industry trends in Rinterio’s articles and news, helping you make
+                    informed real estate decisions.
                 </p>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb:gap-5 lg:gap-6 mx-5">
                     <!-- card-1 -->
@@ -354,10 +407,9 @@
                             </div>
                             <h2 class="card-title font-extrabold text-rinterio-primaey">How to choose the furniture
                                 right of your
-                                home.</h2>
-                            <p class="text-rinterio-third font-medium">The barn house captivates with its blend of
-                                rustic charm and
-                                modern.
+                                home ?</h2>
+                            <p class="text-rinterio-third font-medium">The article provides tips for selecting furniture
+                                that balances style and functionality, ensuring comfort and practicality in your home.
                             </p>
                             <div class="card-actions ">
                                 <button class="btn-rinterio-primary text-lg font-bold mt-1">
@@ -376,19 +428,17 @@
                             <div class="flex gap-3 text-rinterio-third text-sm font-medium">
                                 <div class="space-x-2">
                                     <i class="fa-regular fa-calendar-days"></i>
-                                    <time datetime="14-July-2024">July14, 2024</time>
+                                    <time datetime="14-July-2024">July 14, 2024</time>
                                 </div>
                                 <div class="space-x-2">
                                     <i class="fa-regular fa-circle-user"></i>
                                     <p class="inline">By Admin</p>
                                 </div>
                             </div>
-                            <h2 class="card-title font-extrabold text-rinterio-primaey">How to choose the furniture
-                                right of your
-                                home.</h2>
-                            <p class="text-rinterio-third font-medium">The barn house captivates with its blend of
-                                rustic charm and
-                                modern.
+                            <h2 class="card-title font-extrabold text-rinterio-primaey">Tips for First-Time Homebuyers
+                            </h2>
+                            <p class="text-rinterio-third font-medium">This article offers essential tips for first-time
+                                buyers, guiding you through financing and the home-buying process with confidence.
                             </p>
                             <div class="card-actions ">
                                 <button class="btn-rinterio-primary text-lg font-bold mt-1">
@@ -407,19 +457,18 @@
                             <div class="flex gap-3 text-rinterio-third text-sm font-medium">
                                 <div class="space-x-2">
                                     <i class="fa-regular fa-calendar-days"></i>
-                                    <time datetime="14-July-2024">July14, 2024</time>
+                                    <time datetime="19-Aug-2024">Aug 14, 2024</time>
                                 </div>
                                 <div class="space-x-2">
                                     <i class="fa-regular fa-circle-user"></i>
                                     <p class="inline">By Admin</p>
                                 </div>
                             </div>
-                            <h2 class="card-title font-extrabold text-rinterio-primaey">How to choose the furniture
-                                right of your
-                                home.</h2>
-                            <p class="text-rinterio-third font-medium">The barn house captivates with its blend of
-                                rustic charm and
-                                modern.
+                            <h2 class="card-title font-extrabold text-rinterio-primaey">The Importance of Home Staging
+                            </h2>
+                            <p class="text-rinterio-third font-medium">Learn how home staging enhances property appeal
+                                and attracts buyers, maximizing your home’s market potential with Rinterio’s expert
+                                guidance.
                             </p>
                             <div class="card-actions ">
                                 <button class="btn-rinterio-primary text-lg font-bold mt-1">
@@ -446,8 +495,8 @@
                         Next
                         Project</h2>
                     <p class="mb-8 lg:mb-6 text-rinterio-secondary text-sm lg:text-base w-3/4 lg:w-1/2 mx-auto">
-                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
-                        weathered wood, sleek metal accents.
+                        Ready to start your next project? Use our contact form to share your ideas, and our team will
+                        respond promptly.
                     </p>
 
                 </div>
@@ -475,10 +524,8 @@
                         class="fa-solid fa-arrow-right -rotate-45 text-xl bg-lime-400  px-3 py-2 rounded-full text-rinterio-primary"></i>
                     <span class="font-extrabold text-3xl text-white">Rinterio</span>
                 </a>
-                <p class="w-5/6 lg:w-3/4 mt-4 text-rinterio-third">The barn house captivates with its blend of
-                    rustic charm and modern
-                    sophistication,
-                    featuring weathered wood, sleek metal accents..</p>
+                <p class="w-5/6 lg:w-3/4 mt-4 text-rinterio-third">Stay connected with Rinterio! Follow us on social
+                    media for the latest updates, tips, and inspiration for your real estate journey.</p>
             </aside>
             <nav class="lg:mt-12">
                 <div class="grid lg:grid-flow-col gap-8 lg:gap-28 text-rinterio-fifth">
