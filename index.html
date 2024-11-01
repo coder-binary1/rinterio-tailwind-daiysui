@@ -23,12 +23,14 @@
                         'rinterio-primary': '#212121',
                         'rinterio-secondary': '#494949',
                         'rinterio-third': '#737373',
+                        'rinterio-fouth': '#1C1C1C',
                     },
                     fontFamily: {
                         manrope: ["Manrope", "sans-serif"],
                     }
                 }
             }
+        }
     </script>
     <style>
         .bg-custom {
@@ -89,7 +91,7 @@
                     <button class="rounded-full px-5 py-3 bg-lime-400 shadow-md">
                         <span class="mr-2 font-extrabold text-xl">Book Consult</span>
                         <i
-                            class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-3 rounded-full hover:rotate-180 ease-in-out duration-300"></i>
+                            class="fa-solid fa-arrow-right -rotate-45 bg-rinterio-primary text-white p-3 rounded-full hover:rotate-180 ease-in-out duration-300"></i>
                     </button>
                 </div>
             </div>
@@ -119,47 +121,136 @@
         </div>
     </header>
     <main>
-
+        <!-- three section one bg -->
         <div class="bg-base-200">
             <div class="container mx-auto">
 
-                <!-- About Section -->
+                <!-- About Us Section -->
                 <div
                     class="hero pt-8 mt-8 lg:pt-24 lg:mt-24 bg-custom lg:bg-[url('/assets/Vector.png')] bg-auto bg-no-repeat ">
                     <div class="hero-content flex-col-reverse lg:flex-row-reverse">
                         <img src="assets/Rectangle.png" class="max-w-md lg:max-w-lg rounded-xl" />
                         <div class="space-y-4 lg:w-1/2">
-                            <h5 class="font-bold bg-white px-4 py-2 rounded-full w-1/3 lg:w-1/4 mx-auto lg:mx-0 ">
+                            <h5
+                                class="font-bold bg-white px-4 py-2 rounded-full w-1/3 lg:w-1/4 mx-auto lg:mx-0 text-rinterio-secondary">
                                 <i class="fa-solid fa-arrow-right mr-2"></i>
                                 About Us
                             </h5>
                             <div class="space-y-4 lg:space-y-6 ">
-                                <h2 class="text-5xl font-bold text-center lg:text-left">We design thoughtful, liveable
+                                <h2
+                                    class="text-2xl lg:text-5xl font-bold text-center lg:text-left text-rinterio-primary">
+                                    We design
+                                    thoughtful, liveable
                                     spaces</h2>
-                                <p class="text-center lg:text-left">
+                                <p
+                                    class="text-sm lg:text-base text-center lg:text-left font-medium text-rinterio-secondary">
                                     The barn house captivates with its blend of rustic charm and
                                     modern sophistication, featuring weathered wood, sleek metal accents.
                                 </p>
                                 <div class="flex gap-6 shadow-md bg-white p-6 rounded-2xl">
                                     <img class="w-10 h-10 lg:w-auto lg:h-auto" src="assets/commercial.png" alt="">
                                     <div>
-                                        <h5 class="font-extrabold text-base lg:text-xl">Commercial</h5>
-                                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                        <h5 class="font-extrabold text-base lg:text-xl text-rinterio-secondary">
+                                            Commercial</h5>
+                                        <p class="font-medium text-rinterio-third">The barn house captivates with its
+                                            blend of rustic charm
+                                            and modern.</p>
                                     </div>
                                 </div>
                                 <div class="flex gap-6 shadow-md bg-white p-6 rounded-2xl">
                                     <img class="w-10 h-10 lg:w-auto lg:h-auto" src="assets/residential.png" alt="">
                                     <div>
-                                        <h5 class="font-extrabold text-base lg:text-xl">Commercial</h5>
-                                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                        <h5 class="font-extrabold text-base lg:text-xl text-rinterio-secondary">
+                                            Residential</h5>
+                                        <p class="font-medium text-rinterio-third">The barn house captivates with its
+                                            blend of rustic charm
+                                            and modern.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Stats Section -->
+                <div class="mt-8 lg:mt-24 mx-5 md:mx-9 lg:mx-0">
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 shadow rounded-3xl justify-center bg-white">
+                        <div class="stat text-center space-y-4">
+                            <img class="w-10 mx-auto" src="assets/comment-01.png">
+                            <div class="stat-value text-rinterio-secondary">235+
+                            </div>
+                            <div class="stat-desc font-medium text-rinterio-third">Happy Client Review</div>
+                        </div>
+                        <div class="stat text-center space-y-4">
+                            <img class="w-10 mx-auto" src="assets/departement.png">
+                            <div class="stat-value text-rinterio-secondary">50+
+                            </div>
+                            <div class="stat-desc font-medium text-rinterio-third">Work Departments</div>
+                        </div>
+                        <div class="stat text-center space-y-4">
+                            <img class="w-10 mx-auto" src="assets/user-multiple.png">
+                            <div class="stat-value text-rinterio-secondary">30k+
+                            </div>
+                            <div class="stat-desc font-medium text-rinterio-third">Our Happy Client</div>
+                        </div>
+                        <div class="stat text-center space-y-4">
+                            <img class="w-10 mx-auto" src="assets/Group 8.png">
+                            <div class="stat-value text-rinterio-secondary">307+
+                            </div>
+                            <div class="stat-desc font-medium text-rinterio-third">Staff Members</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- How we works -->
+                <div class="mt-8 lg:mt-24 text-center">
+                    <h5 class="font-bold bg-white px-4 py-2 rounded-full inline text-rinterio-secondary">
+                        <i class="fa-solid fa-arrow-right mr-2"></i>
+                        How we works
+                    </h5>
+                    <h2 class="text-2xl lg:text-5xl font-bold my-4 lg:mt-4 lg:mb-6 text-rinterio-primary">Our Works
+                        Process</h2>
+                    <p class="mb-8 lg:mb-6 text-rinterio-secondary text-sm lg:text-base">
+                        The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb:gap-5 lg:gap-6 mx-5">
+
+                        <div class="text-left bg-[#E7C1D3] rounded-2xl p-6 space-y-2">
+                            <img src="assets/concept.png" alt="">
+                            <h5 class="text-rinterio-fouth text-xl font-extrabold">Concept</h5>
+                            <p class="text-rinterio-secondary font-medium">The barn house captivates with its blend of
+                                rustic charm
+                                and modern.</p>
+                        </div>
+                        <div class="text-left bg-[#EFDA6E] rounded-2xl p-6 space-y-2">
+                            <img src="assets/flow-chart.png" alt="">
+                            <h5 class="text-rinterio-fouth text-xl font-extrabold">Design Process</h5>
+                            <p class="text-rinterio-secondary font-medium">The barn house captivates with its blend of
+                                rustic charm
+                                and modern.</p>
+                        </div>
+                        <div class="text-left bg-[#A4DAC3] rounded-2xl p-6 space-y-2">
+                            <img src="assets/vision.png" alt="">
+                            <h5 class="text-rinterio-fouth text-xl font-extrabold">Supervision</h5>
+                            <p class="text-rinterio-secondary font-medium">The barn house captivates with its blend of
+                                rustic charm
+                                and modern.</p>
+                        </div>
+                        <div class="text-left bg-[#77AAEA] rounded-2xl p-6 space-y-2">
+                            <img src="assets/budget-planning.png" alt="">
+                            <h5 class="text-rinterio-fouth text-xl font-extrabold">Budget Planning</h5>
+                            <p class="text-rinterio-secondary font-medium">The barn house captivates with its blend of
+                                rustic charm
+                                and modern.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+
     </main>
     <footer></footer>
 </body>
